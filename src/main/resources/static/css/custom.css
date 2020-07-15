@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'CircularStd';
+    src: url('../fonts/Circular-Std/CircularStd-Book.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'CircularStdBold';
+    src: url('../fonts/Circular-Std/CircularStd-Medium.ttf') format('truetype');
+    font-weight: normal;
+}
+
+body {
+    font-size: 14px;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: normal;
+    transition: all .3s ease-in-out 0s;
+}
+
+h1,
+.h1 {
+    font-family: CircularstdBold;
+    font-size: 45px;
+    color: var(--text-heading);
+    line-height: normal;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h2,
+.h2 {
+    font-family: CircularstdBold;
+    font-size: 40px;
+    color: var(--text-heading);
+    line-height: normal;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h3,
+.h3 {
+    font-family: CircularstdBold;
+    font-size: 35px;
+    color: var(--text-heading);
+    line-height: normal;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h4,
+.h4 {
+    font-family: CircularstdBold;
+    font-size: 30px;
+    color: var(--text-heading);
+    line-height: normal;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h5,
+.h5 {
+    font-family: CircularstdBold;
+    font-size: 25px;
+    color: var(--text-heading);
+    line-height: normal;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h6,
+.h6 {
+    font-family: CircularstdBold;
+    font-size: 20px;
+    color: var(--text-heading);
+    line-height: normal;
+    font-style: normal;
+    font-weight: normal;
+}
+
+@media all and (max-width: 576px) {
+
+    h1,
+    .h1 {
+        font-size: 35px;
+        line-height: normal;
+    }
+
+    h2,
+    .h2 {
+        font-size: 32px;
+        line-height: normal;
+    }
+
+    h3,
+    .h3 {
+        font-size: 29px;
+        line-height: normal;
+    }
+
+    h4,
+    .h4 {
+        font-size: 26px;
+        line-height: normal;
+    }
+
+    h5,
+    .h5 {
+        font-size: 23px;
+        line-height: normal;
+    }
+
+    h6,
+    .h6 {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    body {
+        font-size: 14px;
+        line-height: 18px;
+        font-style: normal;
+        font-weight: normal;
+        transition: all .3s ease-in-out 0s;
+    }
+}

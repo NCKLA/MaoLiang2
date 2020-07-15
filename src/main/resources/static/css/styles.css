@@ -1,0 +1,120 @@
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url('../fonts/CircularStd-Book.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'CircularStdBold';
+    src: url('../fonts/CircularStd-Medium.ttf') format('truetype');
+    font-weight: normal;
+}
+
+body{
+	font-family: CircularStd;
+	font-size: 14px;
+}
+
+
+
+.main-page{
+	.background-color: #224d52;
+	background: linear-gradient(to right, rgb(22, 213, 221) 0%, rgba(7, 86, 71, 0.89) 100%,  rgb(243, 21, 10) 100%, rgb(245, 26, 4) 100%);
+	.min-height: 670px;
+	padding-top: 80px;
+	padding-bottom: 44px;
+}
+
+.main-page-containers{
+	background-color: #fff;
+	border-radius: 10px;
+	.box-shadow: 1px 5px #0b0b0cb5;
+}
+
+
+
+.buttons{
+	margin-right: 60px;
+}
+
+.NewUser a{
+	margin-right: 70px;
+	text-decoration: none;
+	
+}
+
+
+@media only screen and (max-width: 575px)
+
+{
+	
+
+.main-page{
+	padding-bottom: 300px;
+
+}
+
+
+
+.images {
+	width: 80px !important;
+	
+	
+
+}
+
+}
+
+@media (min-width: 576px)and (max-width: 767px)
+{
+
+	.main-page{
+	padding-bottom: 300px;
+
+}
+
+.images
+{
+	    width: 80px !important;
+	
+}
+
+}
+
+@media (min-width: 768px)and (max-width: 991px)
+{
+
+.main-page{
+	padding-bottom: 300px;
+
+ }
+
+.images
+{
+	    width: 110px !important;
+	
+}
+
+}
+
+
+@media (min-width: 992px)and (max-width: 1199px)
+{
+
+	.main-page{
+	padding-bottom: 300px;
+
+ }
+
+.images
+{
+	    width: 110px !important;
+	
+}
+
+}
+
+
+
+

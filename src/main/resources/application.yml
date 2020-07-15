@@ -1,0 +1,20 @@
+server:
+  port: 8080
+  servlet:    context-path: /
+
+spring:  datasource:    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db_maoliang_test?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    password: 
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  freemarker:    check-template-location: false    template-loader-path:    - classpath:/webapp/
+    charset: utf-8
+    request-context-attribute: request
+    suffix: .ftl
+  mvc:    static-path-pattern: /**    favicon:      enabled: false
+#       resources:#    static-locations:#    - /resources/webapp/
+#    add-mappings: true
+    
